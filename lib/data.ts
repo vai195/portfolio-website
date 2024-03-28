@@ -23,65 +23,59 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
+  // {
+  //   name: "Experience",
+  //   hash: "#experience",
+  // },
   {
     name: "Contact",
     hash: "#contact",
   },
 ] as const;
 
-export const experiencesData = [
-  {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
-] as const;
+// export const experiencesData = [
+//   {
+//     title: "Graduated bootcamp",
+//     location: "Miami, FL",
+//     description:
+//       "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+//     icon: React.createElement(LuGraduationCap),
+//     date: "2019",
+//   },
+//   {
+//     title: "Front-End Developer",
+//     location: "Orlando, FL",
+//     description:
+//       "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+//     icon: React.createElement(CgWorkAlt),
+//     date: "2019 - 2021",
+//   },
+//   {
+//     title: "Full-Stack Developer",
+//     location: "Houston, TX",
+//     description:
+//       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+//     icon: React.createElement(FaReact),
+//     date: "2021 - present",
+//   },
+// ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Next.js Weather App",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "- Designed and implemented the front-end using Next.js and Tailwind CSS to deliver an interactive and visually appealing user interface. - Leveraged server-side rendering (SSR) with Next.js to enhance website performance. - Integrated various weather data APIs (Open Weather API, Open Meteo API) to provide users with comprehensive and accurate weather information. - Utilized libraries like Leaflet for map integration and Moment.js for date/time manipulation. - Deployed the application to Vercel for global accessibility.",
+    tags: ["React", "Next.js", "REST APIs", "Tailwind"],
+    imageUrl: "/next-weatherpic.png",
   },
   {
-    title: "rmtDev",
+    title: "MERN Stack Exercise Tracker",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "- A exercise tracker web application where a user can keep track of the various exercises they completed or want to complete during their workout. - Designed and implemented the front-end using React.js and TailwindCSS, ensuring a clean and responsive UI. - Constructed the back-end API with Node.js, Express.js, and MongoDB, enabling secure data storage and retrieval. - Integrated JSON Web Tokens for user authentication and authorization, guaranteeing data security. - Deployed the application to render.com for the back-end and netlify for the front-end, ensuring worldwide accessibility.",
+    tags: ["React", "MongoDB", "Node.js", "Tailwind", "Express", "JWT"],
+    imageUrl: "/exercise-tpic.png",
   },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-  },
+  
 ] as const;
 
 export const skillsData = [
@@ -92,16 +86,19 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
+  "REST APIs",
   "Git",
-  "Tailwind",
-  "Prisma",
+  "GitHub",
+  "TailwindCSS",
+  "SQL",
+  "Oracle",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
   "Python",
-  "Django",
-  "Framer Motion",
+  "Java",
+  "C",
+  "Linux/Unix",
+  "GUI"
+  
+  
 ] as const;

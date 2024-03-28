@@ -6,44 +6,42 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-  const { ref } = useSectionInView("About");
+    const { ref } = useSectionInView("About");
 
-  return (
-    <motion.section
-      ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
-      initial={{ opacity: 0, y: 100 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 0.175 }}
-      id="about"
-    >
-      <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
-
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
-      </p>
-    </motion.section>
-  );
+    return (
+        <motion.section
+            ref={ref}
+            className='mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28'
+            initial={{ opacity: 0, y: 100 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.175 }}
+            id='about'>
+            <SectionHeading>About me</SectionHeading>
+            <p className='mb-3'>
+                As an undergraduate student majoring in{" "}
+                <b>Applied Computer Science </b>
+                with a concentration in <b>Software Engineering </b> at{" "}
+                <i>George Mason University </i>, I am deeply passionate about
+                technology and committed to continuous learning. Serving as an
+                <b> Undergraduate Teaching Assistant</b> teaching Python, I have
+                had the privilege of guiding over 400 students, providing
+                personalized support and fostering an engaging learning
+                environment. With proficiency in languages such as Python, Java,
+                and JavaScript, coupled with expertise in tools like React and
+                MongoDB, I tackle complex software projects with confidence. My
+                professional journey includes participation in esteemed programs
+                like the AT&T Technology Academy, where I gained exposure to
+                diverse technologies and honed my employability skills. Through
+                projects like my Exercise Tracker MERN Stack Project and my
+                Next.js Weather App, I have demonstrated my ability to learn new
+                technologies to deliver innovative solutions with a focus on
+                user experience and functionality. Driven by curiosity and a
+                desire to make a positive impact, I am poised to embark on a
+                successful career in software engineering, where I will continue
+                to innovate and thrive in dynamic environments. Connect with me
+                on LinkedIn or email to join me through my journey and
+                accomplishments.
+            </p>
+        </motion.section>
+    );
 }
