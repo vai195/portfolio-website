@@ -29,7 +29,7 @@ export default function Intro() {
                             duration: 0.2,
                         }}>
                         <Image
-                            src='/profilepic.jpg'
+                            src='/profilepic.png'
                             alt='Me'
                             width='192'
                             height='192'
