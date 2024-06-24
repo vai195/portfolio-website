@@ -75,6 +75,13 @@ export const projectsData = [
     tags: ["React", "MongoDB", "Node.js", "Tailwind", "Express", "JWT"],
     imageUrl: "/exercise-tpic.png",
   },
+  {
+    title: "NBA PPG Prediction Model",
+    description:
+      "Created a prediction model to predict a players points per game (PPG) stat for the upcoming 2024-2025 season based on their PPG from the past 3 seasons (2022-2022, 2022-2023, 2023-2024). Used a Linear Regression model using scikit-learn to combine a player's data from all three seasons to help predict their PPG in the upcoming 2024-2025 season.",
+    tags: ["React", "Next.js", "Tailwind","Python", "Scikit-Learn", "Flask",],
+    imageUrl: "/NBAPPGpic.png",
+  }
   
 ] as const;
 
