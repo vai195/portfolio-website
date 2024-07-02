@@ -69,20 +69,32 @@ export const projectsData = [
     imageUrl: "/next-weatherpic.png",
   },
   {
+    title: "PumpUp AI Exercise Tracker",
+    description:
+      "- An AI powered Exercise Tracker application utilizing an OpenAI chat bot to answer user fitness/health questions based on their tracked exercises to achieve their fitness and heath goals. Designed and implemented a responsive, user-centric interface for PumpUp, an innovative AI-powered workout tracker, using Next.js inspired by my first react project a MERN Stack Exercise Tracker. -Developed robust APIs to manage exercise data and AI interactions and MongoDB for optimized data storage and scalability. Integrated Pinecone with the OpenAI API to deliver precise AI responses, including detailed exercise information, progress tracking, personalized feedback, and nutrition advice based on the users workout routine and tracked exercises.",
+    tags: [
+      "Next.js",
+      "OpenAI API",
+      "MongoDB",
+      "Pinecone Vector DB",
+      "Tailwind",
+    ],
+    imageUrl: "/pumpup.png",
+  },
+  {
+    title: "NBA PPG Prediction Model",
+    description:
+      "- Created a prediction model to predict a players points per game (PPG) stat for the upcoming 2024-2025 season based on their PPG from the past 3 seasons (2022-2022, 2022-2023, 2023-2024). Used a Linear Regression model using scikit-learn to combine a player's data from all three seasons to help predict their PPG in the upcoming 2024-2025 season.",
+    tags: ["React", "Next.js", "Tailwind", "Python", "Scikit-Learn", "Flask"],
+    imageUrl: "/NBAPPGpic.png",
+  },
+  {
     title: "MERN Stack Exercise Tracker",
     description:
       "- A exercise tracker web application where a user can keep track of the various exercises they completed or want to complete during their workout. - Designed and implemented the front-end using React.js and TailwindCSS, ensuring a clean and responsive UI. - Constructed the back-end API with Node.js, Express.js, and MongoDB, enabling secure data storage and retrieval. - Integrated JSON Web Tokens for user authentication and authorization, guaranteeing data security. - Deployed the application to render.com for the back-end and netlify for the front-end, ensuring worldwide accessibility.",
     tags: ["React", "MongoDB", "Node.js", "Tailwind", "Express", "JWT"],
     imageUrl: "/exercise-tpic.png",
   },
-  {
-    title: "NBA PPG Prediction Model",
-    description:
-      "Created a prediction model to predict a players points per game (PPG) stat for the upcoming 2024-2025 season based on their PPG from the past 3 seasons (2022-2022, 2022-2023, 2023-2024). Used a Linear Regression model using scikit-learn to combine a player's data from all three seasons to help predict their PPG in the upcoming 2024-2025 season.",
-    tags: ["React", "Next.js", "Tailwind","Python", "Scikit-Learn", "Flask",],
-    imageUrl: "/NBAPPGpic.png",
-  }
-  
 ] as const;
 
 export const skillsData = [
@@ -92,20 +104,19 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
+  "TailwindCSS",
   "Node.js",
+  "Express",
   "REST APIs",
   "Git",
   "GitHub",
-  "TailwindCSS",
   "SQL",
+  "Postgres",
   "Oracle",
   "MongoDB",
-  "Express",
   "Python",
   "Java",
   "C",
   "Linux/Unix",
-  "GUI"
-  
-  
+  "GUI",
 ] as const;
