@@ -62,6 +62,21 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "GMU Course Search and Scheduler",
+    description:
+      "- Created a robust class search system specifically tailored for George Mason University, catering to a student population of over 30,000 allowing them to seamlessly add their course timings to their calendar. It employs a MongoDB database to manage course and scheduling data, a Go application to establish a RESTful API for the backend deployed on Cloud Run, and a Next.js frontend for user-friendly interaction deployed on vercel. - Utilized GitHub Actions for continuous integration by running a dockerized build of the application as well as router tests every time a commit is pushed to the main branch which then allows for Google Cloud Run to deploy a new instance of my application every time a code change is made.",
+    tags: [
+      "Go",
+      "MongoDB",
+      "Next.js",
+      "REST APIs",
+      "Cloud Run",
+      "Docker",
+      "Tailwind",
+    ],
+    imageUrl: "/gmusearch.png",
+  },
+  {
     title: "Next.js Weather App",
     description:
       "- Designed and implemented the front-end using Next.js and Tailwind CSS to deliver an interactive and visually appealing user interface. - Leveraged server-side rendering (SSR) with Next.js to enhance website performance. - Integrated various weather data APIs (Open Weather API, Open Meteo API) to provide users with comprehensive and accurate weather information. - Utilized libraries like Leaflet for map integration and Moment.js for date/time manipulation. - Deployed the application to Vercel for global accessibility.",
@@ -102,6 +117,7 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
+  "Go",
   "React",
   "Next.js",
   "TailwindCSS",
@@ -114,6 +130,7 @@ export const skillsData = [
   "Postgres",
   "Oracle",
   "MongoDB",
+  "Docker",
   "Python",
   "Java",
   "C",
