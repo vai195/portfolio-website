@@ -74,7 +74,7 @@ export const projectsData = [
       "Docker",
       "Tailwind",
     ],
-    imageUrl: "/gmusearch1.png",
+    imageUrl: "/gmusearch.png",
   },
   {
     title: "Next.js Weather App",
