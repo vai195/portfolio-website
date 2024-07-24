@@ -131,9 +131,9 @@ export const skillsData = [
   "Oracle",
   "MongoDB",
   "Docker",
+  "AWS",
   "Python",
   "Java",
   "C",
   "Linux/Unix",
-  "GUI",
 ] as const;
